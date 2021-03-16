@@ -1,0 +1,35 @@
+Raw Data:
+date: Date on which the delivery was made 
+delivery_type: Specifys the type of delivery
+contracting_company: Company who ordered delivery
+number_of_deliveries = Number of deliveries in order
+stated_distance: Delivery distance as stated in order
+pickup_location: Location I picked item up from 
+intial_departure_time: Time in which I departed from my original location towards pickup location 
+initial_distance: The driving distance between orignial location and pickup location 
+pickup_arrival_time: Time in which I arrived at the pickup location 
+pickup_departure_time: Time in which I departed pickup location 
+distance1: Driving distance to first location 
+time_1: Time after 1st Dropoff 
+distance_2: Driving distance to second location
+time_2: Time after second dropoff
+distance_3: Driving distance to third location
+time_3: Time after third dropoff
+distance_4: Driving distance to fourth location
+time_5: Time after 1st dropoff
+distance_5: Driving distance to fifth location
+time_5: Time after 5th dropoff
+final_time: time after last dropoff
+total_delivery_earnings: total earnings from delivery fees 
+total_tips: any tips earned on this order
+total_earnings: total_delivery_earnins + total_tips
+number_of_tips: number of tips for that order
+
+Features: 
+
+
+Notes:
+Date Format (MM/DD/YYYY)
+Time Format (HH:MM) 24 Hour Clock
+Distance is in miles as calculated by Apple Maps
+Currency is in USD
